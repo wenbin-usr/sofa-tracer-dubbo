@@ -44,9 +44,14 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.baomidou</groupId>-->
+<!--            <artifactId>mybatis-plus-boot-starter</artifactId>-->
+<!--        </dependency>-->
+
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-tracer-dubbo-plugin</artifactId>
         </dependency>
 
         <dependency>

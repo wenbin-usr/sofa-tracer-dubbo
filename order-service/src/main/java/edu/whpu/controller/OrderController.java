@@ -4,7 +4,6 @@ import edu.whpu.entity.Goods;
 import edu.whpu.service.GoodsService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 

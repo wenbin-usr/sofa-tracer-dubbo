@@ -33,10 +33,10 @@
             <artifactId>dubbo-registry-nacos</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.baomidou</groupId>-->
+<!--            <artifactId>mybatis-plus-boot-starter</artifactId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -51,6 +51,11 @@
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>tracer-sofa-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-tracer-dubbo-plugin</artifactId>
         </dependency>
 
         <dependency>

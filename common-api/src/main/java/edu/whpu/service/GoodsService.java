@@ -1,7 +1,6 @@
 package edu.whpu.service;
 
 import edu.whpu.entity.Goods;
-import edu.whpu.entity.Product;
 
 import java.util.List;
 

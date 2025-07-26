@@ -17,7 +17,7 @@ dubbo:
   registry:
     address: nacos://47.106.155.227:8848
   protocol:
-    port: 20880
+    port: 20881
 
 
 
