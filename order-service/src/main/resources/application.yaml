@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: wenbin123456
+    url: jdbc:mysql://localhost:3306/db_test01?useSSL=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+logging:
+  path: ./logs
+
+dubbo:
+  application:
+    name: order-service
+  consumer:
+    filter: dubboSofaTracerFilter
+  registry:
+    address: nacos://47.106.155.227:8848
+  protocol:
+    port: 20880
+
+
+
+server:
+  port: 9090
